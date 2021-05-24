@@ -11,3 +11,7 @@ The model() function runs our sentences through BERT. The results of the process
 The way BERT does sentence classification is that it adds a token called [CLS] (for classification) at the beginning of every sentence. The output corresponding to that token can be thought of as an embedding for the entire sentence. So, we slice only the [CLS] part of the output.
 
 Then fianlly, we split our dataset into a training set and testing set and evaluate how well does our model does in classifying sentences.
+
+
+# Reference: 
+http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
