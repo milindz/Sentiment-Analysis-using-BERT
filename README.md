@@ -1,4 +1,4 @@
-# Sentiment-Analysis-using-BERT
+# Sentiment-Analysis-using-DistilBERT
 Sentiment Analysis model using DistilBERT and ML classification model.
 
 In this notebook, we will use a pre-trained deep learning model to process some text. We will then use the output of that model to classify the text. The text is a list of 1000 amazon reviews from 2014 specifically on books and then we will classify each sentence as either speaking "positively" about its subject or "negatively".
